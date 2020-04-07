@@ -1,0 +1,274 @@
+body{
+    background-color: antiquewhite;
+    width:auto;
+    height: auto;
+   
+}
+    
+
+.header-prd {
+    width: 250px;
+    height: auto;
+    padding: 5px;
+    border: 1px solid gray;
+    margin: 15px;
+    background-color: rgb(214, 214, 193);
+    text-align:justify;
+    position: relative;
+    float: left;
+    border-radius: 20px;
+    
+	
+}
+
+
+.zoom-out {
+    position: static;
+    height: auto;
+    width: inherit;
+    border-radius: 20px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    transform: scale(1);
+  }
+  
+  .zoom-out:hover {
+    width: 280px;
+    height: auto;
+    position: relative;
+    display: block;
+    border: 1px solid #fed136;
+    background-color: #b20000;
+    border-radius: 20px;
+    position: relative;
+    z-index: 999;
+    
+
+  }
+
+
+.insidecard-img{
+    margin:0;
+    width: inherit;
+    height:auto;
+    position: static;
+    
+}
+
+.insidecard-cont {
+    margin:0;
+    width: inherit;
+    height:auto;
+    position: static;
+    
+}
+
+.insidecard-price {
+    margin:0;
+    width: inherit;
+    height:auto;
+    position: static;
+    text-align: right;
+}
+
+.insidecardr-button{
+    margin:0;
+    width: inherit;
+    height:auto;
+    position: inherit;
+    left: 120px;
+
+}
+
+.title-text{
+    font-weight:bold;
+}
+
+.to-buy{
+    border-radius: 20px;
+    border-color:#929c9b solid 5px;
+    color: #424747;
+    padding:5px;
+    margin:5px;
+    border:2px solid #424747;
+	background-color:#eae0c2;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-weight:bold;
+	text-decoration:none;
+	outline: none;
+
+}
+
+.basket-container{
+width:360px;  
+height:auto;
+background-color:rgb(214, 214, 193) ;
+border-radius: 20px;
+margin: 15px;
+padding: 5px;
+border:1px solid gray;
+position:relative;
+float:right;
+
+}
+.span-title{
+    border-radius: 20px;
+    padding: 5px;
+    text-shadow: dimgray;
+    font-size: 2em;
+}
+
+
+.posi-btn{
+	display:inline-block;   
+   	height:auto;
+    width:auto;
+    margin:0px;
+	position: absolute;
+    right:0px;
+	top:0px;
+	border-radius:25px;
+
+}
+
+.tot-pret{
+
+	margin:0px;
+	width: auto;
+	height:auto;
+	text-align: right;
+	font-weight:bold;
+	font-size: 1.5rem;
+    text-align: left;
+    
+   }
+
+.to-clear{
+    border-radius: 15px;
+    border-color:#929c9b solid 5px;
+    color: #424747;
+    padding:5px;
+    margin:5px;
+    border:2px solid #424747;
+	background-color:#eae0c2;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-weight:bold;
+	text-decoration:none;
+	outline: none;
+}
+
+  
+
+.to-chekout{
+
+    border-radius: 15px;
+    border-color:#929c9b solid 5px;
+    color: #424747;
+    padding:5px;
+    margin:2px;
+    border:2px solid #424747;
+	background-color:#eae0c2;
+	display:block;
+	cursor:pointer;
+	color:#505739;
+	font-weight:bold;
+	text-decoration:none;
+	outline: none;
+	font-size:1.3em;
+	
+}
+
+    
+
+
+.lista-prod{
+    width: auto;
+    height: auto;
+    position: relative;
+    border: none;
+    margin: 2px;
+    border-radius: 20px;
+   
+ }
+ 
+ .cart-img{
+position:inherit;
+width: 80px;
+height: auto;
+border-radius: 5px;
+margin-top:8px;
+margin-left:5px;
+display:inline-block;
+
+}
+
+
+	.cart-item-name{
+    margin:1px;    
+    padding:0px;
+    outline:none;
+    width:auto;
+    height:auto;
+    text-align:justify;
+    display:inline-block;
+    position:inherit;
+		
+	}
+
+
+.cart-price{
+    margin:0px;    
+    padding:0px;
+    outline:none;
+    width: auto;
+    height: auto;
+    text-align:justify;
+    display:inline-block;
+    position:inherit;
+    } 
+	
+
+
+	.aliniere-input{
+    margin:3px;    
+    padding:0px;
+    outline:none;
+    width:auto;
+    height:auto;
+    text-align:center;
+    display:inline-block;
+    position:inherit;
+	border-radius:15px;
+    } 
+   
+.to-remove{
+    border-radius: 20px;
+    border-color:#929c9b solid 3px;
+    color: #424747;
+    padding:2px;
+    margin:0px;
+    border:1.5px solid #424747;
+	background-color:#eae0c2;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	text-decoration:none;
+    outline: none;
+    font-size:0.8rem ;
+
+}
+
+
+
+
+
+
